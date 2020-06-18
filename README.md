@@ -1,4 +1,4 @@
-##  Redis GEO
+##  Redis GEO 地理位置
 
 个人博客  [码农小胖哥的博客](https://www.felord.cn/)
 
