@@ -47,7 +47,7 @@ public class LocationController {
                 .newGeoRadiusArgs()
                 .includeDistance()
                 .includeCoordinates()
-                .sortDescending()
+                .sortAscending()
                 .limit(limit);
         return RestBody.okData(citiesGeoOps.radius(circle, args));
     }
